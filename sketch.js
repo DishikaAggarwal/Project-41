@@ -47,7 +47,7 @@ batman.scale= 0.45;
 
 function draw(){
     background(bg);
-
+Engine.update(engine);
    
      //creating thunder
 rand = Math.round(random(1,4));
